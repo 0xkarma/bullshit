@@ -1,0 +1,21 @@
+{
+	"main": "index.js",
+	"private": true,
+	"scripts": {
+		"build": "rm -rf ./public && node index.js",
+		"start": "serve public"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">=16"
+	},
+	"dependencies": {
+		"@sindresorhus/slugify": "latest",
+		"@sphido/core": "latest",
+		"@sphido/frontmatter": "latest",
+		"marked": "latest"
+	},
+	"devDependencies": {
+		"serve": "latest"
+	}
+}
